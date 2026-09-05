@@ -3,50 +3,578 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>John Doe | Portfolio</title>
+
+    <meta name="description"
+          content="Bharath R - Mechanical Engineering student, CAD designer and additive manufacturing enthusiast.">
+
+    <title>Bharath R | Mechanical Engineer</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <header>
-        <h1>John Doe</h1>
-        <p>Web Developer | Designer | Programmer</p>
-    </header>
+<!-- ================= NAVBAR ================= -->
 
-    <section>
-        <h2>About Me</h2>
+<nav class="navbar">
+    <div class="container nav-container">
+
+        <a href="#home" class="logo">
+            Bharath<span>.</span>
+        </a>
+
+        <button class="menu-btn" id="menuBtn">
+            ☰
+        </button>
+
+        <div class="nav-links" id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <button class="theme-btn" id="themeBtn">
+            🌙
+        </button>
+
+    </div>
+</nav>
+
+
+<!-- ================= HERO ================= -->
+
+<section id="home" class="hero">
+
+    <div class="container hero-content">
+
+        <div class="hero-text">
+
+            <p class="hello">HELLO, I'M</p>
+
+            <h1>
+                Bharath <span>R</span>
+            </h1>
+
+            <h2>
+                Mechanical Engineering Student
+            </h2>
+
+            <p class="hero-description">
+                Passionate about mechanical design, CAD modeling,
+                additive manufacturing and practical engineering.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#contact" class="btn primary">
+                    Contact Me
+                </a>
+
+                <a href="#skills" class="btn secondary">
+                    Explore My Skills
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-card">
+
+            <div class="profile-circle">
+                BR
+            </div>
+
+            <h3>Mechanical Engineer</h3>
+
+            <p>
+                CAD • 3D Modeling • 3D Printing
+            </p>
+
+            <div class="quick-info">
+
+                <div>
+                    <strong>2027</strong>
+                    <small>Graduation</small>
+                </div>
+
+                <div>
+                    <strong>2026</strong>
+                    <small>Internship</small>
+                </div>
+
+                <div>
+                    <strong>10+</strong>
+                    <small>Software Skills</small>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section id="about" class="section">
+
+    <div class="container">
+
+        <div class="section-title">
+            <p>ABOUT ME</p>
+            <h2>Profile</h2>
+        </div>
+
+        <div class="about-grid">
+
+            <div class="about-text">
+
+                <h3>
+                    Mechanical Engineering Student with a
+                    practical mindset.
+                </h3>
+
+                <p>
+                    I am a hardworking and goal-oriented Mechanical
+                    Engineering student with a strong foundation in
+                    mechanical design, manufacturing and workshop
+                    practices.
+                </p>
+
+                <p>
+                    I have hands-on experience with CAD software,
+                    3D modeling, additive manufacturing and
+                    manufacturing-related activities.
+                </p>
+
+                <p>
+                    I enjoy learning new technologies and applying
+                    engineering concepts to practical problems.
+                </p>
+
+            </div>
+
+
+            <div class="qualities">
+
+                <div class="quality">
+                    <span>01</span>
+                    <div>
+                        <h4>Quick Learner</h4>
+                        <p>
+                            Willing to learn new technologies and
+                            take on challenging tasks.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="quality">
+                    <span>02</span>
+                    <div>
+                        <h4>Team Player</h4>
+                        <p>
+                            Strong collaboration and communication
+                            skills.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="quality">
+                    <span>03</span>
+                    <div>
+                        <h4>Hardworking</h4>
+                        <p>
+                            Responsible, dedicated and focused on
+                            achieving quality results.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="quality">
+                    <span>04</span>
+                    <div>
+                        <h4>Continuous Development</h4>
+                        <p>
+                            Committed to continuous personal and
+                            professional growth.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SKILLS ================= -->
+
+<section id="skills" class="section skills-section">
+
+    <div class="container">
+
+        <div class="section-title">
+            <p>MY EXPERTISE</p>
+            <h2>Software & Technical Skills</h2>
+        </div>
+
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <div class="skill-icon">⚙️</div>
+                <h3>CAD & Design</h3>
+
+                <div class="tags">
+                    <span>AutoCAD 2D</span>
+                    <span>AutoCAD 3D</span>
+                    <span>SolidWorks</span>
+                    <span>NX CAD</span>
+                    <span>CATIA</span>
+                </div>
+            </div>
+
+
+            <div class="skill-card">
+                <div class="skill-icon">🖨️</div>
+                <h3>Additive Manufacturing</h3>
+
+                <div class="tags">
+                    <span>3D Printing</span>
+                    <span>Slicing</span>
+                    <span>Ultimaker Cura</span>
+                    <span>Bambu Lab</span>
+                </div>
+            </div>
+
+
+            <div class="skill-card">
+                <div class="skill-icon">💻</div>
+                <h3>Productivity</h3>
+
+                <div class="tags">
+                    <span>MS Word</span>
+                    <span>MS Excel</span>
+                    <span>PowerPoint</span>
+                    <span>Canva</span>
+                </div>
+            </div>
+
+
+            <div class="skill-card">
+                <div class="skill-icon">🎨</div>
+                <h3>Creative & Other Tools</h3>
+
+                <div class="tags">
+                    <span>Video Editing</span>
+                    <span>Photo Editing</span>
+                    <span>General Software</span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= EXPERIENCE ================= -->
+
+<section id="experience" class="section">
+
+    <div class="container">
+
+        <div class="section-title">
+            <p>MY JOURNEY</p>
+            <h2>Work Experience</h2>
+        </div>
+
+
+        <div class="timeline">
+
+            <!-- Internship -->
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-date">
+                    2026
+                </div>
+
+                <div class="timeline-content">
+
+                    <p class="company">
+                        LIBRA INDUSTRIES
+                    </p>
+
+                    <h3>Mechanical Engineering Intern</h3>
+
+                    <p>
+                        Internship experience involving practical
+                        manufacturing and workshop operations.
+                    </p>
+
+                    <div class="work-tags">
+                        <span>Screw Punching</span>
+                        <span>Packing</span>
+                        <span>Marking</span>
+                        <span>Date Punching</span>
+                        <span>Load Checking</span>
+                        <span>Drilling</span>
+                        <span>Assembly</span>
+                        <span>Machine Handling</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Pattern Shop -->
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-date">
+                    2023 – 2024
+                </div>
+
+                <div class="timeline-content">
+
+                    <p class="company">
+                        PRACTICAL WORK EXPERIENCE
+                    </p>
+
+                    <h3>Workshop & Pattern Shop</h3>
+
+                    <p>
+                        Hands-on experience in workshop operations,
+                        pattern finishing, machine handling and
+                        general manufacturing activities.
+                    </p>
+
+                    <div class="work-tags">
+                        <span>Drilling</span>
+                        <span>Filing</span>
+                        <span>Marking</span>
+                        <span>Tool Grinding</span>
+                        <span>Bur Cleaning</span>
+                        <span>Loading / Unloading</span>
+                        <span>Pattern Smoothing</span>
+                        <span>Pattern Shining</span>
+                        <span>Machine Cleaning</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= EDUCATION ================= -->
+
+<section id="education" class="section education-section">
+
+    <div class="container">
+
+        <div class="section-title">
+            <p>ACADEMIC BACKGROUND</p>
+            <h2>Education</h2>
+        </div>
+
+
+        <div class="education-card">
+
+            <div class="education-year">
+                2024<br>
+                <span>2027</span>
+            </div>
+
+            <div class="education-content">
+
+                <p class="education-label">
+                    DIPLOMA / MECHANICAL ENGINEERING
+                </p>
+
+                <h3>
+                    Sri Ramakrishna Mission Vidyalaya
+                    Polytechnic College
+                </h3>
+
+                <p>
+                    Mechanical Engineering
+                </p>
+
+                <span class="status">
+                    Currently Studying
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= LANGUAGES ================= -->
+
+<section class="section languages-section">
+
+    <div class="container">
+
+        <div class="section-title">
+            <p>COMMUNICATION</p>
+            <h2>Languages</h2>
+        </div>
+
+        <div class="language-grid">
+
+            <div class="language-card">
+                <strong>Tamil</strong>
+                <div class="language-bar">
+                    <span style="width: 100%"></span>
+                </div>
+                <small>Native</small>
+            </div>
+
+            <div class="language-card">
+                <strong>English</strong>
+                <div class="language-bar">
+                    <span style="width: 75%"></span>
+                </div>
+                <small>Working Proficiency</small>
+            </div>
+
+            <div class="language-card">
+                <strong>Kannada</strong>
+                <div class="language-bar">
+                    <span style="width: 60%"></span>
+                </div>
+                <small>Basic</small>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="contact-section">
+
+    <div class="container contact-container">
+
+        <div class="contact-text">
+
+            <p class="hello">GET IN TOUCH</p>
+
+            <h2>
+                Let's build something
+                <span>great.</span>
+            </h2>
+
+            <p>
+                I am open to internship opportunities, entry-level
+                mechanical engineering roles and opportunities to
+                learn and grow.
+            </p>
+
+        </div>
+
+
+        <div class="contact-details">
+
+            <a href="tel:+916379786069" class="contact-item">
+                <span>📞</span>
+                <div>
+                    <small>PHONE</small>
+                    <strong>+91 63797 86069</strong>
+                </div>
+            </a>
+
+
+            <a href="mailto:bharath.r.dme.24@gmail.com"
+               class="contact-item">
+
+                <span>✉️</span>
+
+                <div>
+                    <small>EMAIL</small>
+                    <strong>
+                        bharath.r.dme.24@gmail.com
+                    </strong>
+                </div>
+
+            </a>
+
+
+            <div class="contact-item">
+
+                <span>📍</span>
+
+                <div>
+                    <small>LOCATION</small>
+                    <strong>
+                        Metupalayam, Tamil Nadu, India
+                    </strong>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="container footer-container">
+
         <p>
-            I'm a developer interested in building modern and useful
-            web applications.
+            © <span id="year"></span> Bharath R.
+            All Rights Reserved.
         </p>
-    </section>
 
-    <section>
-        <h2>Projects</h2>
+        <p>
+            Mechanical Engineering • CAD • Additive Manufacturing
+        </p>
 
-        <div>
-            <h3>Project One</h3>
-            <p>A description of my project.</p>
-            <a href="#">View Project</a>
-        </div>
+    </div>
 
-        <div>
-            <h3>Project Two</h3>
-            <p>Another project I've built.</p>
-            <a href="#">View Project</a>
-        </div>
-    </section>
+</footer>
 
-    <section>
-        <h2>Skills</h2>
-        <p>HTML · CSS · JavaScript · Python · Git</p>
-    </section>
 
-    <section>
-        <h2>Contact</h2>
-        <p>Email: your@email.com</p>
-    </section>
+<script src="script.js"></script>
 
 </body>
 </html>
